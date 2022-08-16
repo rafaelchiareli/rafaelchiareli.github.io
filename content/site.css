@@ -1,0 +1,49 @@
+.barra {
+    background-color: cornflowerblue;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0px 0px 15px 15px;
+}
+
+body {
+    background-color: darkgrey;
+}
+
+.textoBarra{
+    font-size: 35px;
+    color:white;
+
+}
+
+.divPerfil{
+    display: flex;
+    justify-content: center;
+
+}
+
+.perfil {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+
+.divInfos{
+    background-color: white;
+    border-radius: 15px;
+    width: 400px;
+    margin-top: 10px;
+}
+
+.conjuntoInfo{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+}
+
+.divConjuntoInfo{
+    display: flex;
+    justify-content: center;
+}
