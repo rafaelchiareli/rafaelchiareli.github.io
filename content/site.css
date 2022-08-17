@@ -14,8 +14,11 @@ body {
 }
 
 .textoBarra{
-    font-size: 35px;
-    color:white;
+    font-size: 45px;
+  
+    
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
 
 }
 
@@ -146,7 +149,7 @@ li , p{
     padding: 30px;
 }
 
-.img-footer > a > img {
-    height: 60px;
-    width: 60px;
+.imgFooter{
+    height: 65px;
+    width: 65px;
 }
