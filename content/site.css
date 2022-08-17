@@ -1,14 +1,16 @@
+
+
 .barra {
-    background-color: cornflowerblue;
+    background-color: #ADD8E6;
+
     height: 80px;
     display: flex;
     align-items: center;
     justify-content: center;
-    border-radius: 0px 0px 15px 15px;
 }
 
 body {
-    background-color: darkgrey;
+    background-color: #F5F5F5;
 }
 
 .textoBarra{
@@ -33,8 +35,14 @@ body {
 .divInfos{
     background-color: white;
     border-radius: 15px;
-    width: 400px;
+    width: 700px;
     margin-top: 10px;
+    padding-top: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    padding: 10px;
 }
 
 .conjuntoInfo{
@@ -57,27 +65,54 @@ body {
 
 }
 
-li {
+li , p{
     font-family: 'Roboto', sans-serif;
 }
+
+
 
 .divSocial {
     margin-left: 100px;
     background-color: aquamarine;
-    border-radius: 25px;
-    width: 100px;
-    height: 40px;
+    
+    /* width: 200px;
+    height: 40px; */
     display: flex;
+    position: absolute;
+    right: 10px;
+    float: right;
 
 }
 
-.fa {
+.card {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 200px;
+    height: 200px;
+    border-radius: 15px; /* 5px rounded corners */
+  }
   
+  /* On mouse-over, add a deeper shadow */
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  /* Add some padding inside the card container */
+  .container {
+    padding: 2px 16px;
+  }
+  img {
+    border-radius: 15px;
+  }
+
+
+  .fa {
+    padding: 5px;
     font-size: 30px;
     width: 50px;
     text-align: center;
     text-decoration: none;
-    border-radius: 50%;
   }
   
   /* Add a hover effect if you want */
@@ -94,7 +129,24 @@ li {
   }
   
   /* Twitter */
-  .fa-twitter {
+  .fa-linkedin {
     background: #55ACEE;
     color: white;
   }
+
+  .fa-github {
+    background: black;
+   
+  }
+  
+
+.img-footer {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+
+.img-footer > a > img {
+    height: 60px;
+    width: 60px;
+}
